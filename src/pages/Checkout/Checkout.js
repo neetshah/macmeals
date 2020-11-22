@@ -22,7 +22,7 @@ const Checkout = ({setCartItems}) => {
           {/* For demo purpose */}
           <div className="row mb-4">
             <div className="col-lg-8 mx-auto text-center">
-              <h1 className="display-4">Bootstrap Payment Forms</h1>
+              <h1 className="display-4">Payment</h1>
             </div>
           </div> {/* End */}
           <div className="row">
