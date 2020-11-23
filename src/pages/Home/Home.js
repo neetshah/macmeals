@@ -52,6 +52,7 @@ const Home = () => {
 
     return (
         <div id="mainPage">
+            <h1 class="comments">Restaurants</h1>
             <FilterMenu parentCallback={(val) => filters(val)}/>
             <div class="all_cards">
                 {restaurants.filter((res)=>toShow(res)).map((r) => (

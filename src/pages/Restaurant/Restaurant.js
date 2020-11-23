@@ -104,9 +104,12 @@ const Restaurant = (props) => {
                 <h2>{restaurants[params.id].address}</h2>
                 <h4>{restaurants[params.id].price} {restaurants[params.id].type.map((e) => (" • " + e ))}</h4>
             </div>
+            <div>
+                <h1 class="comments">Food Items</h1>
+            </div>
             <div class="all_cards ">
                 {food[params.id].map((item) => (
-                    <div class="cards pointer">
+                    <div class="cards">
                     <FoodItem name={item.name} price={item.price} id={item.id} setCartItems={props.setCartItems} cartItems={props.cartItems}
                     src='https://images.squarespace-cdn.com/content/v1/578ce85a29687f705d94f1a2/1589743327893-V0L59H9UGRIHSTOZYDO4/ke17ZwdGBToddI8pDm48kCcGjQlaoelt7C5hPGq9Rzp7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UU4U4t-OyHRaY7T5z-1wzhl4DE2zD4tZbXSzBncBtN8HtEFb-HhWljtJ-vfKDf_eiw/BurritoBoyz_Hero_002.jpg?format=1500w'/>
                 </div>

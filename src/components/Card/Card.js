@@ -2,7 +2,7 @@ import React from 'react'
 import { Card, Image } from 'semantic-ui-react'
 
 const CardExampleCard = (props) => (
-  <Card class="pointer">
+  <Card>
     <Image src={props.src} wrapped ui={false} />
     {/* <Image src='https://react.semantic-ui.com/images/avatar/large/matthew.png' wrapped ui={false}/> */}
     <Card.Content>

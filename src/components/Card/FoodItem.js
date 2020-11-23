@@ -15,7 +15,7 @@ const FoodItem = (props) => {
     }
 
     return (
-    <Card class="pointer">
+    <Card>
         <Image src={props.src} wrapped ui={false} />
         <Card.Content>
         <Card.Header>{props.name}</Card.Header>
